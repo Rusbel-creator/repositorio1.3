@@ -6,12 +6,16 @@
     <title>products</title>
     <link rel="icon" href="montego's_fovicon.png" type="image/png">
     <link rel="stylesheet" href="montego's.css">
-    <link rel="stylesheet" href="fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
-        <img src="montego's_logo.png" alt="logotipo" class="logo">
+        <div class="logo-container">
+            <img src="montego's_logo.png" alt="logotipo" class="logo">
+        </div>
         <nav class="links__nav">
             <a class="links" href="index.html">inicio</a>
             <a class="links" href="nosotros.html">nosotros</a>
@@ -19,94 +23,77 @@
             <a class="links" href="pedidos.html">pedidos</a>
             <a class="links" href="contactos.html">contactos</a>
         </nav>
+        <div class="spacer"></div>
     </header>
 
     <h1 class="products__title">Nuestros mejores platillos</h1>
     <div class="first__row">
         <div class="food__container">
-            <a href="" class="food__links">
-                <img src="dorada con salsa calabrese y gnocchis trufados.webp" class="products">
-                <h3>Dorada con salsa calabrese y gnocchis trufados</h3>
-                <p>con esparragos salteados</p>
-                <h4>$180</h4>
-            </a>
+            <img src="dorada con salsa calabrese y gnocchis trufados.webp" class="products">
+            <h3>Dorada con salsa calabrese y gnocchis trufados</h3>
+            <p>con esparragos salteados</p>
+            <button class="prices">$180</button>
         </div>
 
         <div class="food__container">
-            <a href="" class="food__links">
-                <img src="dorada con salsa de matequilla nantes.webp" class="products">
-                <h3>Dorada con salsa de mantequilla nantes</h3>
-                <p>con patatas al horno y ensalada</p>
-                <h4>$185</h4>
-            </a>
+            <img src="dorada con salsa de matequilla nantes.webp" class="products">
+            <h3>Dorada con salsa de mantequilla nantes</h3>
+            <p>con patatas al horno y ensalada</p>
+            <button class="prices">$185</button>
         </div>
 
         <div class="food__container">
-            <a href="" class="food__links">
-                <img src="entrecote de ternera con pastel de patatas.webp" class="products">
-                <h3>Entrecote de ternera con pastel de patatas</h3>
-                <p>con salsa casera de mostaza y brocoli salteado</p>
-                <h4>$160</h4>
-            </a>
+            <img src="entrecote de ternera con pastel de patatas.webp" class="products">
+            <h3>Entrecote de ternera con pastel de patatas</h3>
+            <p>con salsa casera de mostaza y brocoli salteado</p>
+            <button class="prices">$160</button>
         </div>
     </div>
 
     <div class="second__row">
         <div class="food__container">
-            <a href="" class="food__links">
-                <img src="pato a la naranja.webp" class="products">
-                <h3>Pato a la naranja</h3>
-                <p>acompañado de patatas al romero y judías verdes salteados</p>
-                <h4>$205</h4>
-            </a>
+            <img src="pato a la naranja.webp" class="products">
+            <h3>Pato a la naranja</h3>
+            <p>acompañado de patatas al romero y judías verdes salteados</p>
+            <button class="prices">$205</button>
         </div>
 
         <div class="food__container">
-            <a href="" class="food__links">
-                <img src="solomillo de cerdo con girgolas salteadas.webp" class="products">
-                <h3>Solomillo de cerdo con girgolas salteadas</h3>
-                <p>con salsa asiática y ensalada con cacahuetes</p>
-                <h4>$190</h4>
-            </a>
+            <img src="solomillo de cerdo con girgolas salteadas.webp" class="products">
+            <h3>Solomillo de cerdo con girgolas salteadas</h3>
+            <p>con salsa asiática y ensalada con cacahuetes</p>
+            <button class="prices">$190</button>
         </div>
 
         <div class="food__container">
-            <a href="" class="food__links">
-                <img src="solomillo de cerdo con salsa cremosa de setas.webp" class="products">
-                <h3>Solomillo de cerdo con salsa cremosa de setas</h3>
-                <p>acompañado de arroz y judías verdes salteadas</p>
-                <h4>$230</h4>
-            </a>
+            <img src="solomillo de cerdo con salsa cremosa de setas.webp" class="products">
+            <h3>Solomillo de cerdo con salsa cremosa de setas</h3>
+            <p>acompañado de arroz y judías verdes salteadas</p>
+            <button class="prices">$230</button>
         </div>
     </div>
 
     <div class="last__row">
         <div class="food__container">
-            <a href="" class="food__links">
-                <img src="solomillo de cerdo con salsa demiglace.webp" class="products">
-                <h3>Solomillo de cerdo con salsa demiglace</h3>
-                <p>con patatas gratinadas al queso azul y judías verdes y espinacas</p>
-                <h4>$250</h4>
-            </a>
+            <img src="solomillo de cerdo con salsa demiglace.webp" class="products">
+            <h3>Solomillo de cerdo con salsa demiglace</h3>
+            <p>con patatas gratinadas al queso azul y judías verdes y espinacas</p>
+            <button class="prices">$250</button>
         </div>
 
         <div class="food__container">
-            <a href="" class="food__links">
-                <img src="solomillo de cerdo oriental con setas shiitake.webp" class="products">
-                <h3>Solomillo de cerdo oriental con setas shiitake</h3>
-                <p>acompañado de arroz con pimiento y cacahuetes</p>
-                <h4>$230</h4>
-            </a>
+            <img src="solomillo de cerdo oriental con setas shiitake.webp" class="products">
+            <h3>Solomillo de cerdo oriental con setas shiitake</h3>
+            <p>acompañado de arroz con pimiento y cacahuetes</p>
+            <button class="prices">$230</button>
         </div>
 
         
         <div class="food__container">
-            <a href="" class="food__links">
-                <img src="Yakiniku entrecot de ternera con salsa japonesa.webp" class="products">
-                <h3>Yakiniku entrecot de ternera con salsa japonesa</h3>
-                <p>con verduras salteadas y patatas aderezandas</p>
-                <h4>$300</h4>
-            </a>
+            <img src="Yakiniku entrecot de ternera con salsa japonesa.webp" class="products">
+            <h3>Yakiniku entrecot de ternera con salsa japonesa</h3>
+            <p>con verduras salteadas y patatas aderezandas</p>
+            <button class="prices">$300</button>
         </div>
         
     </div>
