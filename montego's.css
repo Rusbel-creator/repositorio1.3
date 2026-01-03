@@ -392,6 +392,11 @@ button:hover {
     color: #444;
 }
 
+.food__container img {
+    display: block;
+    margin: auto;
+}
+
 .products {
     width: 250px;
     height: 175px;
